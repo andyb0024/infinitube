@@ -42,3 +42,13 @@ def membership_pre_save_receiver(sender,instance,*args,**kwargs):
         instance.slug = unique_slug_generator(instance)
 pre_save.connect( membership_pre_save_receiver, sender=Membership)
 
+def post_user_membership_create(sender,instance,created,*args,**kwargs):
+    if created:
+        UserMembership.objects.get_or_create(user=instance)
+    user_membership,created=UserMembership.objects.get_or_create(user=instance)
+    if user_membership.stripe_customer_id is None or user_membership.stripe_customer_id =="":
+        stripe.api_key=STRIPE_PUB_KEY
+        new_customer_id=stripe.Customer.create(email=instance.email)
+        user_membership.stripe_customer_id=new_customer_id['id']
+        user_membership.save()
+post_save.connect(post_user_membership_create,sender=User)
