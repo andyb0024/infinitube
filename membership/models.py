@@ -2,7 +2,7 @@ from django.db import models
 
 from django.db.models.signals import post_save,pre_save
 from accounts.models import User
-from Infinitube.utils import unique_slug_generator
+from .utils import unique_slug_generator
 import stripe
 from Infinitube.settings import STRIPE_PUB_KEY
 # Create your models here.
@@ -21,10 +21,12 @@ class Membership(models.Model):
     def __str__(self):
         return self.membership_type
 
+
+
 class UserMembership(models.Model):
-    user = models.ForeignKey(User,related_name="users",on_delete=models.CASCADE)
+    user = models.OneToOneField(User,on_delete=models.CASCADE)
     stripe_customer_id = models.CharField(max_length=40)
-    membership=models.ForeignKey(Membership,on_delete=models.SET_NULL,null=True)
+    membership=models.ForeignKey(Membership,related_name="membership",on_delete=models.SET_NULL,null=True)
     def __str__(self):
         return self.user.username
 

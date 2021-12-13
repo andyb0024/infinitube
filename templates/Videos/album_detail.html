@@ -1,0 +1,25 @@
+  {% extends 'new_base.html'%}
+{% load static%}
+
+{% block content %}
+<body>
+<div class="container">
+<h1>Songs</h1>
+<hr>
+<h1>{{object.title}}</h1>
+
+
+<div class="card" style="width: 28rem;">
+  <img src="{{object.image.url}}" class="card-img-top" alt="...">
+
+  <ul class="list-group list-group-flush">
+        {%for music in object.musics%}
+      <li class="list-group-item"><a href="{{music.get_absolute_url}}">{{music}}</a></li>
+          {%endfor%}
+
+  </ul>
+
+</div>
+</div>
+</body>
+{%endblock%}

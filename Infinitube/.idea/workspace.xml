@@ -1,13 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f5a6631-755f-4ecc-8245-2d75f0da5ed5" name="Default Changelist" comment="" />
+    <list default="true" id="2f5a6631-755f-4ecc-8245-2d75f0da5ed5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Videos/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/admin/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/admin/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/admin/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/admin/my_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bases.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/images/app.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/index2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/jquery-3.5.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/csrf.ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/css/new_auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/css/new_index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/css/new_main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/_app.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/algolia.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/analytics.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/commons.1a49e2da.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/commons.42ec8bb29797cdcebd4a.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/illustrations.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/index.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/main-41870f64557e0cf6b331.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/polyfills-5c6befe99fce5c988bcc.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/search.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/Search _ unDraw_files/webpack-4b444dab214c6491079c.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/72c7f1f3ae0ba6599ba799b24f01e9c7.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/WIRX-Pharmacy-100h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/WIRX-RX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/WIRX-clipboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/WIRX-delivery-Truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/WIRX-doctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/WIRX-dollar-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/WIRX-partners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/analytics.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/b6db471c8054bbdfd2379bc67f86f86c.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/caldera-forms-front.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/caldera-forms-front.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/enrollment-patient-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/image-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/image-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/index.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/jquery-baldrick.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/jquery-migrate.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/jquery.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/parsley.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/pro-portal-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/style.min(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/wirx-thumbs-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/wp-embed.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/WIRX Pharmacy _ The Premier Pharmacy For Injured Workers_files/wp-emoji-release.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/aliquam-tincidunt-mauris6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/aliquam-tincidunt-mauris7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/arrow-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/arrow-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/banner-top-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/banner2_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/banner2_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/bannerrrrrr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/doctor-4229348__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/drug-1070943__340 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/drug-1070943__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/fusce-porttitor-augue-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/headphones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/integer-cursus-auctor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/istockphoto-1179277388-170667a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/medical_care_movn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/medications-257346_960_720.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/nam-mollis-porta-facilisis3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/shoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/slider-111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/slider-222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/slider-333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/sourcecode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/stock-photo-two-african-american-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/stock-photo-young-african-aph.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/stock-vector-white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/two-african-american-pharmacist-working-260nw-1093335629.jpg.webp.fdmdownload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/undraw_doctors_hwty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/undraw_medicine_b1ol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/images/watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/my_static/js/proto/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../static/try.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/Videos/album_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/Videos/album_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/base/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/new_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="21uY7mnTYzCZ9B90V8Q6ehLothA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

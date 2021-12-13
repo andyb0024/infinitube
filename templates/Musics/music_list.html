@@ -1,0 +1,16 @@
+  {% extends 'new_base.html'%}
+{% load static%}
+
+{% block content %}
+<body>
+<div class="container">
+<h1>Lesson Detail View</h1>
+{%if object  is not None%}
+{{object.title}}bbbb
+{{object.description}}
+{%else%}
+<h3>Upgrade Membership</h3>
+{% endif %}
+</div>
+</body>
+{%endblock%}

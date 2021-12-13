@@ -1,0 +1,28 @@
+  {% extends 'new_base.html'%}
+{% load static%}
+
+{% block content %}
+<body>
+<div class="container">
+    <h1>Albums</h1>
+<hr>
+<!--{%for album in qs %}-->
+<!--<a href="{{album.get_absolute_url}}">{{album.title}}</a>-->
+<!--{%endfor%}-->
+<div class="row">
+    {%for album in qs %}
+    <div class="col-lg-4 col-md-3 col-sm-4">
+        <div class="card" style="width: 18rem;">
+            <a href="{{album.get_absolute_url}}"><img src="{{album.image.url}}" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <p class="card-text">{{album.title}}</p>
+          </div>
+
+       </div>
+
+    </div>
+          {%endfor%}
+</div>
+</div>
+</body>
+{%endblock%}
