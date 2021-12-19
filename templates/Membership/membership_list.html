@@ -1,32 +1,47 @@
 {% extends 'new_base.html'%}
 
 {% block content%}
-<div class="container">
-  <h1>Select a Membership</h1>
-  <div class="row">
-    {% for object in object_list%}
-    <div class="col-sm-4 col-md-4">
-     <h2>   {{object.membership_type}}</h2>
-      <p>   ${{object.price}} <small>/month</small></p>
-      <h4>Album</h4>
-      <ul>
-      {% for album in object.album_set.all  %}
-         <l>{{album}}</l>
-      {%endfor%}
-      </ul>
-      {%if object.membership_type != 'Free' %}
-      <form action="" method="POST">
-      {%csrf_token%}
-        {% if object.membership_type != current_membership  %}
-        <button class="btn btn-warning">Select</button>
-        {%else%}
-        <small>This is your current membership</small>
-        {%endif%}
-        <input type="hidden" name="membership_type" value="{{object.membership_type}}">
-      </form>
-      {%endif%}
+<div class="container my-3 ">
+
+    <div class="row my">
+        {% for object in object_list%}
+        <div class="col-sm-4 col-md-4 my-3 ">
+            {% if object.membership_type == "Medium" %}
+            <span class="badge badge-primary">{{object}}</span>
+            {% elif object.membership_type == "Premium" %}
+            <span class="badge badge-success">{{object}}</span>
+            {%endif%}
+            {% for album in object.album_set.all %}
+            <!--card-->
+            <div class="card" style="width: 18rem;">
+                {% if object.membership_type == 'Free' %}
+                <a href="{{album.get_absolute_url}}"><img src="{{album.image.url}}" class="card-img-top" alt="..."></a>
+                {%else%}
+                <img src="{{album.image.url}}" class="card-img-top" alt="...">
+                {%endif%}
+                <!--card body-->
+                <div class="card-body">
+                    <p class="card-text">{{album.title}}</p>
+
+                    {%endfor%}
+
+                    {%if object.membership_type != 'Free' %}
+                    <form action="{% url 'membership:select' %}" method="POST">
+                        {%csrf_token%}
+
+                        {% if object.membership_type != current_membership %}
+                        <button class="btn btn-warning">Select</button>
+                        {%else%}
+                        <small>This is your current membership</small>
+                        {%endif%}
+                        <input type="hidden" name="membership_type" value="{{object.membership_type}}">
+                    </form>
+                    {%endif%}
+                </div>
+            </div>
+            <!-- card end-->
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 </div>
 {%endblock%}

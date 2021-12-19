@@ -34,7 +34,6 @@ class Music(models.Model):
     album = models.ForeignKey(Album, on_delete=models.SET_NULL, null=True)
     position = models.IntegerField()
     thumbnail = models.ImageField()
-
     def __str__(self):
         return self.title
     def get_absolute_url(self):

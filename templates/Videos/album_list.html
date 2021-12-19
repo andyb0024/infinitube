@@ -1,28 +1,45 @@
-  {% extends 'new_base.html'%}
+{% extends 'new_base.html'%}
 {% load static%}
 
 {% block content %}
 <body>
 <div class="container">
     <h1>Albums</h1>
-<hr>
-<!--{%for album in qs %}-->
-<!--<a href="{{album.get_absolute_url}}">{{album.title}}</a>-->
-<!--{%endfor%}-->
-<div class="row">
-    {%for album in qs %}
-    <div class="col-lg-4 col-md-3 col-sm-4">
-        <div class="card" style="width: 18rem;">
-            <a href="{{album.get_absolute_url}}"><img src="{{album.image.url}}" class="card-img-top" alt="..."></a>
-          <div class="card-body">
-            <p class="card-text">{{album.title}}</p>
-          </div>
+    <hr>
+    <!--{%for album in qs %}-->
+    <!--<a href="{{album.get_absolute_url}}">{{album.title}}</a>-->
+    <!--{%endfor%}-->
 
-       </div>
+    <div class="row">
+        {%for object in object_list %}
+        {%for album in object.album_set.all%}
+        <div class="col-lg-4 col-md-3 col-sm-4">
 
+            <div class="card" style="width: 18rem;">
+                <a href="#"><img src="{{album.image.url}}" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+
+                    <p class="card-text">{{album.title}}</p>
+                    {% if object.membership_type == "Medium" %}
+                    <span class="badge badge-primary"><h6>{{object}}</h6></span>
+                    {% elif object.membership_type == "Premium" %}
+                    <span class="badge badge-success"><h6>{{object}}</h6></span>
+
+                    {%endif%}
+                    <!--  form start-->
+                    <form action="{% url 'membership:select' %}" method="POST">
+                        {%csrf_token%}
+                        <button class="btn btn-danger">buy</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+        {%endfor%}
+        {%endfor%}
     </div>
-          {%endfor%}
-</div>
 </div>
 </body>
 {%endblock%}

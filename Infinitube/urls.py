@@ -21,6 +21,7 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('video/', include(("Videos.urls", 'Videos'), namespace='Videos')),
+    path('api/', include(("Videos.Api.urls", 'Video'), namespace='Video-Api')),
     path('membership/', include(("membership.urls", 'membership'), namespace='membership')),
 ]
 

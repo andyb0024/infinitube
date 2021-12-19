@@ -5,17 +5,26 @@ from membership.models import Membership, UserMembership
 
 
 # Create your views here.
+class MembershipAlbumView(ListView):
+    context_object_name = 'object_list'
+    queryset = Membership.objects.all()
+    template_name = "Videos/album_list.html"
 
 def album(request):
     qs = Album.objects.all()
+    membership_qs=Membership.objects.all()
+    for x in membership_qs:
+        print(x.album)
     context = {
-        "qs": qs
+        "qs": qs,
+        "object":membership_qs
     }
     return render(request, 'Videos/album_list.html', context)
 
 
 class AlbumDetail(DetailView):
     model = Album
+
 
 
 class MusicDetail(View):
@@ -30,7 +39,6 @@ class MusicDetail(View):
         user_membership = UserMembership.objects.filter(user=request.user.id).first()
         user_membership_type = user_membership.membership.membership_type
         album_allowed_mem_types = album.allowed_memberships.all()
-        print(album_allowed_mem_types)
         context = {
             "object": None
         }
